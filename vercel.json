@@ -1,6 +1,12 @@
-
 {
     "rewrites": [
-      { "source": "/(.*)", "destination": "/" }
+      { "source": "/signin", "destination": "/" },
+      { "source": "/signup", "destination": "/" },
+      { "source": "/blog/:id", "destination": "/" },
+      { "source": "/blogs", "destination": "/" },
+      { "source": "/publish", "destination": "/" },
+      { "source": "/:path*", "destination": "/" }
     ]
-  }
+ 
+}
+  
