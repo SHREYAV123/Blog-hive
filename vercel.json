@@ -1,0 +1,29 @@
+{
+  "routes":[
+{
+    "src":"/signin",
+    "dest":"/"
+}
+,
+{
+    "src":"/signup",
+    "dest":"/"
+},
+{
+    "src":"/blog/:id",
+    "dest":"/"
+},
+{
+    "src":"/blogs",
+    "dest":"/"
+
+},
+{
+    "src":"/publish",
+    "dest":"/"
+}
+
+  ]
+
+
+}
