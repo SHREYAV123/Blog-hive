@@ -12,7 +12,7 @@ export const Fullblog=({blog}:{blog:Blog})=>{
                 {blog.title}
               </div>
               <div className="pt-4 text-slate-500">Post on 2nd Feburary 2024</div>
-              <div className="pt-5 text-2xl font-extralight">
+              <div className="pt-5 text-2xl font-light text-slate-900">
                 {blog.content}
               </div>
              
