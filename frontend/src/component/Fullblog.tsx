@@ -8,17 +8,19 @@ export const Fullblog=({blog}:{blog:Blog})=>{
         <div className="flex justify-center">
         <div className="grid w-full grid-cols-12 px-12 pt-5 max-screen-xl">
             <div className="col-span-8 ">
-              <div className="text-5xl font-extrabold">
+              <div className="text-2xl font-extrabold sm:text-5xl">
                 {blog.title}
               </div>
-              <div className="pt-4 text-slate-500">Post on 2nd Feburary 2024</div>
-              <div className="pt-5 text-2xl font-light text-slate-900">
-                {blog.content}
-              </div>
+              <div className="pt-5 mt-2 text-xl font-light leading-relaxed text-slate-900 font-handwriting sm:text-2xl ">
+          {blog.content}
+          </div>
+
+
+
              
             </div>
             
-            <div className="col-span-4">
+            <div className="hidden col-span-4 lg:block">
                 <div className="text-lg text-slate-600">
                 Author  
                 </div>
