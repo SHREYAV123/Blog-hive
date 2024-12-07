@@ -1,4 +1,13 @@
 {
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "build"
+        }
+      }
+    ],
     "rewrites": [
       { "source": "/signin", "destination": "/" },
       { "source": "/signup", "destination": "/" },
@@ -7,6 +16,5 @@
       { "source": "/publish", "destination": "/" },
       { "source": "/:path*", "destination": "/" }
     ]
- 
-}
+  }
   
