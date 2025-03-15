@@ -1,11 +1,12 @@
 name = "backend"
 main = "src/index.ts"
-compatibility_date = "2024-11-24"
+compatibility_date = "2024-11-06"  # Update this if needed
+
 
 # compatibility_flags = [ "nodejs_compat" ]
 
  [vars]
-DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiMDJjNDljZjAtMGQxNi00MTk3LWJlNWUtNjUyODI5YTQwZWU1IiwidGVuYW50X2lkIjoiZDRlNDZmMjc4MzU5OTZkODU5NjFiNGMyMTE3NDA2MTY5YzlkZDhmZDU5MmQxZmYxMDg2YzBjYmMzOGYyOTE2YiIsImludGVybmFsX3NlY3JldCI6IjcyZWQ0ZWU0LTRlYmQtNDMwMi04ZGI3LWU1NjA3M2U2NWM2ZSJ9.sIlEUpkOw253kGzllgZDUj26gQudedxwNrDluNTbOQU"
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiOTVmMDA5NzAtNDQ0YS00NzhlLTlmZWMtYjUyZmY5MmYzODZiIiwidGVuYW50X2lkIjoiZDRlNDZmMjc4MzU5OTZkODU5NjFiNGMyMTE3NDA2MTY5YzlkZDhmZDU5MmQxZmYxMDg2YzBjYmMzOGYyOTE2YiIsImludGVybmFsX3NlY3JldCI6IjcyZWQ0ZWU0LTRlYmQtNDMwMi04ZGI3LWU1NjA3M2U2NWM2ZSJ9.IEM9M8pJ1I-DdgPZCoh7xBvbWLjnIvl0DvzR2LxoIDQ"
 JWT_SECRET="aaahghje"
 
 # [[kv_namespaces]]
