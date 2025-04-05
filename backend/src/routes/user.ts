@@ -40,10 +40,13 @@ export const userRouter=new Hono<{
     return c.json({
       jwt:token
     })}
-    catch(e){
-       c.status(403);
-    return c.json({error:"Error while signup"});
-      }
+    catch (e) {
+      console.log("Signup body:", body);
+
+      console.error("Signup error:", e);  // 🔍 Shows exact Prisma or DB error
+      c.status(403);
+      return c.json({ error: "Error while signup" });
+    }
   }
   );
   
