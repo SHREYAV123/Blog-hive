@@ -1,1 +1,1 @@
-export const BACKEND_URL="https://97f05aa2-backend.shreyasahu9696.workers.dev"
+export const BACKEND_URL="https://254d23ba-backend.shreyasahu9696.workers.dev"
